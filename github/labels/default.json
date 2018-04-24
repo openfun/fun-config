@@ -1,0 +1,50 @@
+[
+  {
+    "name": "critical",
+    "color": "d93f0b"
+  },
+  {
+    "name": "bug",
+    "color": "b60205"
+  },
+  {
+    "name": "improvement",
+    "color": "9900ff"
+  },
+  {
+    "name": "feature",
+    "color": "0052cc"
+  },
+  {
+    "name": "needs help",
+    "color": "fbca04"
+  },
+  {
+    "name": "needs test",
+    "color": "fbca04"
+  },
+  {
+    "name": "needs review",
+    "color": "fbca04"
+  },
+  {
+    "name": "needs doc",
+    "color": "fbca04"
+  },
+  {
+    "name": "question",
+    "color": "cc317c"
+  },
+  {
+    "name": "easy pick",
+    "color": "0e8a16"
+  },
+  {
+    "name": "feature request",
+    "color": "cccccc"
+  },
+  {
+    "name": "FUN",
+    "color": "006b75"
+  }
+]

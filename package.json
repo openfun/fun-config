@@ -1,0 +1,11 @@
+{
+  "name": "fun-config",
+  "version": "0.1.0",
+  "description": "Misc FUN configuration files",
+  "repository": "git@github.com:openfun/fun-config.git",
+  "author": "GIP FUN Mooc <fun.dev@fun-mooc.fr>",
+  "license": "MIT",
+  "dependencies": {
+    "github-labels": "^0.8.0"
+  }
+}
