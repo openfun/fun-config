@@ -32,36 +32,23 @@ export GITHUB_LABELS_TOKEN="thisismytoken"
 Load a new shell or source your rc file to take into account this new
 environment variable (_e.g._ `source $HOME/.zshrc`).
 
-#### Install the `labels` tool
-
-Make sure [Yarn](https://yarnpkg.com) is installed on your machine, then, at the
-root of this repository, install `labels`:
+#### Build the `fun-config` Docker image
 
 ```bash
-$ cd path/to/fun-config
-$ yarn install
+$ make build
 ```
 
 ### Create default labels for a repository
 
-Once `labels` is installed, you can use our default labels configuration to
-initialize labels from a repository:
+Once the `fun-config` image has been successfully built, you can use our default
+labels configuration to initialize labels from a repository:
 
 ```bash
-$ yarn labels -c github/labels/default.json [-f] -t $GITHUB_LABELS_TOKEN user/repository
+$ bin/labels user/repository
 ```
 
 Feel free to substitute `user` by the project namespace (_e.g._ your user name
 or team) and repository by the name of the repository.
-
-> Please note that the `-f` option will erase all project labels before creating
-> the new ones. It must be used with caution.
-
-Example:
-
-```
-$ yarn labels -c github/labels/default.json -t $GITHUB_LABELS_TOKEN openfun/fun-config
-```
 
 ## License
 
