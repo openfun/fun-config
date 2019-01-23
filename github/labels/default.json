@@ -46,5 +46,9 @@
   {
     "name": "FUN",
     "color": "006b75"
+  },
+  {
+    "name": "WIP",
+    "color": "ed7f10"
   }
 ]
