@@ -2,5 +2,5 @@
 
 repository=${1:-}
 
-docker run --rm fun-config:latest \
+docker run --rm -v $PWD/github:/app/github fun-config:latest \
     yarn labels -f -c github/labels/default.json -t ${GITHUB_LABELS_TOKEN} ${repository}
