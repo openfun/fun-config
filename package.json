@@ -6,6 +6,6 @@
   "author": "GIP FUN Mooc <fun.dev@fun-mooc.fr>",
   "license": "MIT",
   "dependencies": {
-    "github-labels": "^0.8.0"
+    "github-label-sync": "^2.0.0"
   }
 }
